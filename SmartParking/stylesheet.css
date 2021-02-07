@@ -1,68 +1,162 @@
 body {
-  font-family: "Avenir Next";
+  margin: 0;
+  font-family: "Lucida Grande";
 }
 
-li {
-  list-style: none;
+a {
+  text-decoration: none;
 }
 
-.header {
-  background-color: #26d0c9;
-  color: #fff;
-  height: 100px;
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(/Users/admin/VScode/Html-CSS/SmartParking/parking.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Change the position property to fixed, and top property to 0 */
   position: fixed;
   top: 0;
+  
+  /* Change the z-index property to 10 */
   z-index: 10;
-  width: 100%;
-  display: inline-block;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 20px;
 }
 
 .header-left {
   float: left;
-  font-size: 36px;
-  padding: 20px 40px 20px 40px;
-  
 }
 
-.header-right li {
+.header-right {
   float: right;
-  padding: 33px 20px 33px 20px;
-  text-decoration : none; 
-  color : white; 
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
 }
 
-.header-right li:hover{
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  text-decoration: none;
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-.top-image {
-  height: 50%;
-  width: 100%;
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
 }
 
-.about-us {
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
   text-align: center;
 }
 
-.footer {
-  background-color: #2f5167;
-  color: #fff;
-  height: 120px;
-  padding: 40px;
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
 }
 
-.footer-logo {
-  float: left;
-  font-size: 32px;
+.heading h2 {
+  font-weight: normal;
 }
 
-.footer-list {
-  float: right;
+.heading h3 {
+  font-weight: normal;
 }
 
-.footer-list li {
-  padding-bottom: 20px;
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
 }
