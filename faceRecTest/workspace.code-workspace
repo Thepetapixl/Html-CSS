@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Desktop/Face-Detection-JavaScript-master/models"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "faceRecTest"
+	}
+}
