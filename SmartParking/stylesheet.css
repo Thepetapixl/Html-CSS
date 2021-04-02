@@ -73,7 +73,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: wheat;
   /* Change the position property to fixed, and top property to 0 */
   position: fixed;
   top: 0;
