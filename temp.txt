@@ -1,5 +1,0 @@
-hi, hi again
-bye
-hello, peter
-
-gh cli
